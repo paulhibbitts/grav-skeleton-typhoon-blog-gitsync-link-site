@@ -4,8 +4,6 @@ title: Typography
 
 ! Details on the full capabilities of Tailwind.css can be found in the [Official Tailwind Documentation](https://tailwindcss.com/)
 
-[youtube]https://www.youtube.com/watch?v=COraGXFb1lo[/youtube]
-
 The [Typhoon theme](https://github.com/trilbymedia/grav-theme-typhoon) is a new theme for Grav built with [Tailwind.css](https://tailwindcss.com//) a lightweight, responsive and modern **utility-based** CSS framework. Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
 
 ### Headings
@@ -17,6 +15,7 @@ The [Typhoon theme](https://github.com/trilbymedia/grav-theme-typhoon) is a new 
 ### H3 Heading `20px`
 
 #### H4 Heading `16px`
+
 
 ```html
 # H1 Heading `36px`
@@ -33,7 +32,7 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 
 **Bold** `**Bold**`
 
-*Italic* `_Italic_`
+_Italic_ `_Italic_`
 
 ~~Deleted~~ `~~Deleted~~`
 
@@ -41,34 +40,32 @@ Climb leg rub face on everything give attitude nap all day for under the bed. Ch
 
 ### HTML Semantic Text Elements
 
-I18N `<abbr>`
+<abbr>I18N</abbr> `<abbr>`
 
-Citation `<cite>`
+<cite>Citation</cite> `<cite>`
 
-Ctrl + S `<kbd>`
+<kbd>Ctrl + S</kbd> `<kbd>`
 
-TextSuperscripted `<sup>`
+Text<sup>Superscripted</sup> `<sup>`
 
-TextSubscripted `<sub>`
+Text<sub>Subscripted</sub> `<sub>`
 
-Underlined `<u>`
+<u>Underlined</u> `<u>`
 
-Highlighted `<mark>`
+<mark>Highlighted</mark> `<mark>`
 
-20:14 `<time>`
+<time>20:14</time> `<time>`
 
-x = y + 2 `<var>`
+<var>x = y + 2</var> `<var>`
 
 ### Blockquote
 
 > The advance of technology is based on making it fit in so that you don't really even notice it,
 > so it's part of everyday life.
->   
->  
-> 
-> *   Bill Gates
+>
+> <cite>- Bill Gates</cite>
 
-```
+```markdown
 > The advance of technology is based on making it fit in so that you don't really even notice it,
 > so it's part of everyday life.
 >
@@ -77,14 +74,14 @@ x = y + 2 `<var>`
 
 ### Unordered List
 
-*   list item 1
-*   list item 2
-    *   list item 2.1
-    *   list item 2.2
-    *   list item 2.3
-*   list item 3
+* list item 1
+* list item 2
+    * list item 2.1
+    * list item 2.2
+    * list item 2.3
+* list item 3
 
-```
+```markdown
 * list item 1
 * list item 2
     * list item 2.1
@@ -95,14 +92,14 @@ x = y + 2 `<var>`
 
 ### Ordered List
 
-1.  list item 1
-2.  list item 2
-    1.  list item 2.1
-    2.  list item 2.2
-    3.  list item 2.3
-3.  list item 3
+1. list item 1
+1. list item 2
+    1. list item 2.1
+    1. list item 2.2
+    1. list item 2.3
+1. list item 3
 
-```
+```markdown
 1. list item 1
 1. list item 2
     1. list item 2.1
@@ -113,14 +110,14 @@ x = y + 2 `<var>`
 
 ### Table
 
-| Name | Genre | Release date |
-| --- | :-: | --: |
-| The Shawshank Redemption | Crime, Drama | 14 October 1994 |
-| The Godfather | Crime, Drama | 24 March 1972 |
-| Schindler's List | Biography, Drama, History | 4 February 1994 |
-| Se7en | Crime, Drama, Mystery | 22 September 1995 |
+| Name                        | Genre                         | Release date         |
+| :-------------------------- | :---------------------------: | -------------------: |
+| The Shawshank Redemption    | Crime, Drama                  | 14 October 1994      |
+| The Godfather               | Crime, Drama                  | 24 March 1972        |
+| Schindler's List            | Biography, Drama, History     | 4 February 1994      |
+| Se7en                       | Crime, Drama, Mystery         | 22 September 1995    |
 
-```
+```markdown
 | Name                        | Genre                         | Release date         |
 | :-------------------------- | :---------------------------: | -------------------: |
 | The Shawshank Redemption    | Crime, Drama                  | 14 October 1994      |
@@ -141,7 +138,7 @@ The notices styles are actually provided by the `markdown-notices` plugin but ar
 
 !!!! This is a success notification
 
-```
+```markdown
 ! This is a warning notification
 
 !! This is a error notification
@@ -150,3 +147,4 @@ The notices styles are actually provided by the `markdown-notices` plugin but ar
 
 !!!! This is a success notification
 ```
+
