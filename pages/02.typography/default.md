@@ -6,8 +6,6 @@ title: Typography
 
 The [Typhoon theme](https://github.com/trilbymedia/grav-theme-typhoon) is a new theme for Grav built with [Tailwind.css](https://tailwindcss.com//) a lightweight, responsive and modern **utility-based** CSS framework. Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override.
 
-[youtube]https://www.youtube.com/watch?v=COraGXFb1lo[/youtube]
-
 ### Headings
 
 # H1 Heading `36px`
@@ -63,8 +61,9 @@ x = y + 2 `<var>`
 
 > The advance of technology is based on making it fit in so that you don't really even notice it,
 > so it's part of everyday life.
+>  
 > 
-> - Bill Gates
+> *   Bill Gates
 
 ```
 > The advance of technology is based on making it fit in so that you don't really even notice it,
